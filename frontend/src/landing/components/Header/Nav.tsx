@@ -20,7 +20,7 @@ const Nav = () => {
   };
   return (
     <>
-      <nav className="w-1/3 justify-end flex">
+      <nav className="w-1/3 justify-end flex" id="topNavbar">
         <div className="hidden justify-between md:flex space-x-5">
           <NavLinks />
         </div>
@@ -31,7 +31,7 @@ const Nav = () => {
         </div>
       </nav>
       {isOpen && (
-        <div className="flex flex-col items-center basis-full animate-fade-down md:hidden">
+        <div className="flex flex-col items-center basis-full animate-fade-down space-y-4 text-xl md:hidden">
           <NavLinks />
         </div>
       )}

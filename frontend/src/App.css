@@ -11,3 +11,12 @@
   background: linear-gradient(rgba(0, 0, 0, 0.60), rgba(0, 0, 0, 0.60)), url(./assets/consultanciesHero.webp) no-repeat;
   background-size: cover;
 }
+
+.formats-background {
+  background: linear-gradient(rgba(0, 0, 0, 0.60), rgba(0, 0, 0, 0.60)), url(./assets/formatsHero.webp) no-repeat;
+  background-size: cover;
+}
+
+#topNavbar a.active {
+  color: rgb(158, 158, 158);
+}

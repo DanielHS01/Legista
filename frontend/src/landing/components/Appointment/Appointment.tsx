@@ -3,8 +3,12 @@ import phoneImage from "../../../assets/celular.jpg";
 const Appointment = () => {
   return (
     <div className="flex flex-col md:flex-row items-center p-10 justify-center md:space-x-10 space-y-5 md:space-y-0 bg-blue-950 text-indigo-50">
-      <img src={phoneImage} alt="" className="h-64 rounded-md" />
-      <div className="flex flex-col justify-center space-y-5">
+      <img
+        src={phoneImage}
+        alt="Camilo García Celular"
+        className="h-64 rounded-md"
+      />
+      <div className="flex flex-col justify-center space-y-5 text-center md:text-start">
         <div className="flex flex-col text-lg space-y-3">
           <h3 className="text-3xl">¿Cómo agendar o programar una cita?</h3>
           <p>

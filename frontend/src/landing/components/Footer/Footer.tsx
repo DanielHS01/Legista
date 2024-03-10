@@ -10,22 +10,39 @@ const Footer = () => {
   return (
     <>
       <div className="bg-custom-blue-900 flex flex-col md:flex-row text-white justify-center items-center md:space-x-20 space-y-5">
-        <img src={logoFooter} alt="" className=" h-32 md:h-52" />
+        <img
+          src={logoFooter}
+          alt="Camilo García Logo"
+          className=" h-32 md:h-52"
+        />
         <div className="md:flex flex-col space-y-5">
           <div className="flex space-x-3">
-            <a href="https://www.facebook.com/jurisappco/" target="_blank">
+            <a
+              href="https://www.facebook.com/jurisappco/"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
               <FaFacebook size={40} />
             </a>
             <a
               href="https://www.instagram.com/jurisappco/?next=%2F"
               target="_blank"
+              rel="noopener noreferrer"
             >
               <FaInstagram size={40} />
             </a>
-            <a href="https://twitter.com/JurisAppCol" target="_blank">
+            <a
+              href="https://twitter.com/JurisAppCol"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
               <FaXTwitter size={40} />
             </a>
-            <a href="https://www.threads.net/@jurisappcol" target="_blank">
+            <a
+              href="https://www.threads.net/@jurisappcol"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
               <FaThreads size={40} />
             </a>
           </div>

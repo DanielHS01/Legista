@@ -2,6 +2,7 @@ import { useEffect } from "react";
 import { Outlet, useLocation } from "react-router-dom";
 import Header from "./components/Header/Header";
 import Footer from "./components/Footer/Footer";
+import WhatsAppbutton from "./components/WhatsAppButton/WhatsAppbutton";
 
 const ScrollToTop = () => {
   const { pathname } = useLocation();
@@ -20,6 +21,7 @@ const Layout = () => {
       <Header />
       <Outlet />
       <Footer />
+      <WhatsAppbutton />
     </div>
   );
 };

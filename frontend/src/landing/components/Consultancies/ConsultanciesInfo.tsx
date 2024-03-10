@@ -1,4 +1,6 @@
 import ConsultanciesSteps from "./ConsultanciesSteps";
+import "./../../../App.css";
+import Button from "../../../shared/Button";
 
 const ConsultanciesInfo = () => {
   return (
@@ -36,6 +38,12 @@ const ConsultanciesInfo = () => {
         </p>
       </div>
       <ConsultanciesSteps />
+      <div className="w-full justify-center items-center text-center">
+        <Button
+          content="Asesorías Jurídicas"
+          href="https://calendly.com/camilogarcia_abogados/serviciolegal?month=2024-03"
+        />
+      </div>
     </div>
   );
 };

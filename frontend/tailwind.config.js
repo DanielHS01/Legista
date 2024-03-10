@@ -1,15 +1,24 @@
-
-/** @type {import('tailwindcss').Config} */ 
+/** @type {import('tailwindcss').Config} */
 export default {
-  content: ["./index.html", "./src/**/*.{vue,js,ts,jsx,tsx}"],
+  content: [
+    "./index.html",
+    "./src/**/*.{js,ts,jsx,tsx}",
+    'node_modules/flowbite-react/lib/esm/**/*.js',
+  ],
   theme: {
     extend: {
       colors: {
-        "custom-blue": {
-          900: "#010011",
+        'custom-blue': {
+          800: '#060064',
+          900: '#010011',
         }
-      }
+      },
     },
   },
-  plugins: [],
+  plugins: [
+    // eslint-disable-next-line no-undef
+    require('flowbite/plugin'),
+    // eslint-disable-next-line no-undef
+    require('tailwindcss-animated'),
+  ],
 }
